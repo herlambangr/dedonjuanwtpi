@@ -6466,6 +6466,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::after {
    ========================================================================== */
 select {
   display: none;
+  color: #000;
 }
 
 select.browser-default {
@@ -6473,7 +6474,7 @@ select.browser-default {
 }
 
 select {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255,255,255,0.4);
   width: 100%;
   padding: 5px;
   border: 1px solid #f2f2f2;
